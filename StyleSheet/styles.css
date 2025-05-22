@@ -1,0 +1,1232 @@
+/* 
+Name: Jivesh Surajbali 
+Student Number: 20476086
+Date: 2023/05/28
+File: styles.css
+*/
+
+/* CSS Reset */
+
+body, header, nav, main, footer, h1, h2, h3, p, a, div, img, ul, span, form, 
+fieldset, legend, label, article, section, figure, figcaption, caption, table, thead, tbody, th, td, tr, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for Navigation Area */
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    border-top: none;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+nav li a {
+    color:#289B3B;
+    text-decoration: none;
+}
+
+/* Style rules for Body and Images */
+
+body {
+    background-color: #F0F8FF;
+}
+
+main {
+    background-color: #F0F8FF;
+    padding: 2%;
+    font-size: 1.25em;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+video {
+    margin: 0 auto;
+}
+
+h1 {
+    color: #289B3B;
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    color: #289B3B;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h3 {
+    color: #289B3B;
+    text-shadow: #000 0 1px;
+}
+
+/* Style rules for Footer */
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 2% 0;
+}
+
+footer p {
+    color: #289B3B;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color:#289B3B;
+}
+
+/* Style rules for Mobile Viewport */
+
+/* Show mobile content and hide tablet and desktop content */
+
+.mobile {
+    display: block;
+}
+
+.tablet, .desktop {
+    display: none;
+}
+
+/* Style rules for Header */
+
+header {
+    top: 0;
+    background-color: #000;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+header img {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Style rules for navigation area */
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.3em;
+    border-bottom: #fff 2px solid;
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    padding: 0.35em 0.6em;
+}
+
+
+/* Index page */
+
+audio {
+    display: block;
+    margin: 0 auto;
+}
+
+.marketing {
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.marketing p {
+    padding: 2% 0;
+}
+
+.action {
+    font-weight: 700; 
+    font-size: 1.3em; 
+}
+
+.tel-link {
+    display: inline-block;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    width: 45%;
+    margin-left: 27.5%;
+    background-color: #289B3B;
+    border-radius: 15px;
+}
+
+.tel-link a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.25em;
+}
+
+figcaption {
+    text-align: justify;
+    padding: 1% 1% 3% 1%;
+}
+
+/* Packages page */
+
+.packages {
+    width: 90%;
+}
+
+.packages div {
+    margin-bottom: 4%;
+}
+
+.packages ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.packages li {
+    font-size: 1.1em;
+}
+
+article {
+    padding: 2%;
+}
+
+article h3 {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+article img {
+    margin: 0 auto;
+}
+
+main article:nth-of-type(2) {
+    background-color: #FFF;
+}
+
+article ul {
+    margin-left: 3%;
+}
+
+aside {
+    width: 85%;
+    font-weight: bold;
+    margin: 2% 0 8% 0;
+    text-align: center;
+    color: #289B3B;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+.round {
+    border-radius: 1.5em;
+}
+
+#learn, #tips, #routes {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+#learn, #tips, #routes p {
+    text-align: justify;
+}
+
+#learn dt {
+    text-align: center;
+    text-decoration: underline;
+    color: #289B3B;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+#learn dd {
+    margin-left: 0;
+    margin-bottom: 6%;
+}
+
+#tips ul, #routes ul {
+    list-style-type: none;
+}
+
+#tips li, #routes li {
+    padding: 1% 0;
+}
+
+#tips li {
+    margin-bottom: 6%;
+}
+
+#routes p {
+    margin-bottom: 6%;
+}
+
+#routes li {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#routes li a {
+    text-decoration: none;
+    color: #289B3B;
+}
+
+.external-link {
+    color: #289B3B;
+    text-decoration: none;
+}
+
+#natis {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+/* Style rules for Registration page */
+
+#lastVisited {
+    text-align: center;
+}
+
+#register {
+    font-size: 1.75em;
+    padding-top: 4%;
+    text-align: center;
+    color:#289B3B;
+}
+
+#form {
+    margin-top: 2%;
+    background-color: #c0bebe;
+    padding: 3%;
+}
+
+#form h2 {
+    text-align: center;
+}
+
+fieldset, input, label, textarea, select {
+    margin-bottom: 1%
+}
+
+form {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+
+fieldset {
+    border: 2px solid #000;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+}
+
+label {
+    display: block;
+    padding-top: 1%;
+}
+
+legend {
+    padding-left: 1%;
+}
+
+label, input, select, textarea {
+    margin: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#submit, #next {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 2% 2.5%;
+    font-size: 1.05em;
+    color:#fff;
+    background-color: #289B3B;
+    border-radius: 15px;
+    border: none;
+}
+
+input, select {
+    color: #289B3B;
+    font-weight:500;
+} 
+
+#expMonth {
+    margin-right: 1%;
+}
+
+#expYear {
+    margin-left: 0;
+}
+
+
+#quote {
+    margin: 4% 6%;
+}
+
+/* Style rules for Contact page */
+
+.hours {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.hours li {
+    list-style: none;
+}
+
+#contact {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 4%;
+}
+
+#contact li a {
+    color:#289B3B;
+    text-decoration: none;
+}
+
+.map {
+    width: 95%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+
+.hours {
+    text-align: center;
+    margin: 1% 0;
+}
+
+#contact {
+    text-align: center;
+    margin: 1% 0;
+}
+
+#mobileClasses h3 {
+    text-align: center;
+}
+
+#mobileClasses dl, #mobileClasses dd {
+    margin-left: 10%;
+}
+
+.map {
+    display: block;
+    margin: 0 auto;
+    max-width: 670px;
+    height: auto;
+    padding: 2% 0;
+}
+
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 770px) and (max-width: 1279px), print {
+    
+    /* Hide mobile and desktop content and display tablet content */
+    
+    .mobile, .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+
+    /* Style rules for Header */
+    
+    header {
+        position: relative;
+    }
+
+
+    /* Style rules for Navigation Area */
+
+    nav ul {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    nav li {
+        border: none;
+        border-right: 2px solid #fff;
+    }
+
+    nav li:last-of-type {
+        border-right: none;
+    }
+
+
+    /* Style rules for Main Content */ 
+ 
+    main ul {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    /* Style rules for Index page */
+
+    .marketing p:first-of-type {
+        margin-top: 150px;
+    }
+
+    .reviews {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-top: 2%;
+    }
+
+    .reviews figcaption {
+        max-width: 600px; 
+    }
+
+    .reviews figure {
+        min-width: 180px ;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    /* Style rules for lightbox */
+
+    /* Styles for the box containing the slideshow and tools */
+    #lightbox {
+        position: relative;
+        max-width: 960px;
+        max-height: 170px;
+        margin: 20px auto;
+    }
+    
+    /* Styles for the left and right arrows to move through the slideshow */
+    #lightbox #lbPrev, #lightbox #lbNext {
+        position: absolute;
+        width: 5%;
+        height: 30px;
+        color: #289B3B;
+        text-shadow: 2px 2px 2px black;
+        font-size: 20px;
+        font-weight: bold;
+        top: 118px;
+        line-height: 30px;
+        text-align: center;
+        z-index: 1;
+        background: rgba(0,0, 0, 0.0);
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    /* Horizontal position of the left arrow */
+    #lightbox #lbPrev {
+        left: 0px;
+    }
+    
+    /* Horizontal position of the right arrow */
+    #lightbox #lbNext {
+        right: 0px;
+    }
+    
+    /* Styles for the box containing slide images */
+    #lightbox #lbImages {
+        display: flex;
+        flex-direction: row;     
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;        
+    }
+    
+    /* Styles for the box containing the slide counter */
+    #lightbox #lbCounter {
+        position: absolute;
+        z-index: 1;
+        width: 70px;
+        height: 26px;
+        line-height: 20px;
+        font-size: 20px;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 4px;
+        text-align: center;
+        color: white;
+        top: 60px;
+        left: 0px;
+        padding: 3px;
+        user-select: none;
+    }
+    
+    /* Styles for the play-pause button */
+    #lightbox #lbPlay {
+        position: absolute;
+        top: 250px;
+        left: 47.5%;
+        text-align: center;
+        font-size: 2.2em;
+        width: 40px;
+        margin: 0 auto;
+        text-shadow: 3px 3px 20px black;
+        cursor: pointer;
+        user-select: none;
+        filter: grayscale(1);
+    }
+    
+    /* Styles for images within the slideshow box */
+    #lbImages img {
+        display: block;
+        width: 230px;
+        height: auto;
+        margin-right: 13px;
+        filter: opacity(0.8);
+        cursor: pointer;
+        outline: 2px solid #289B3B;
+        box-shadow: 3px 3px 10px black;  
+        user-select: none;   
+    }
+    
+    /* Styles for the overlay displaying an image in fullscreen */
+    
+    /* Styles for the overlay */
+    #lbOverlay {
+        position: fixed;                        
+        z-index: 1;                             
+        width: 100%;                           
+        height: 100%;                           
+        top: 0;
+        left: 0;
+        background-color: rgba(40, 155, 59, 0.6);  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Styles for the figure box within the overlay */
+    #lbOverlay figure {
+        display: block;
+        width: 80%;
+        max-width: 800px;
+    }
+    
+    /* Styles for the image within the overlay */
+    #lbOverlay figure img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+        box-shadow: 5px 5px 20px black;
+        animation-name: zoom;     
+        animation-duration: 1s;   
+    }
+    
+    /* Styles for the caption within the overlay */
+    #lbOverlay figure figcaption {
+        text-align: center;
+        font-size: 1.25em;
+        color: white;
+        margin-top: 10px;
+        animation-name: zoom;     
+        animation-duration: 1s;    
+    }
+    
+    /* Styles for the overlay close button */
+    #lbOverlay #lbOverlayClose {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        color: #f1f1f1;
+        font-size: 40px;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    /* Keyframe animation for the opening of the modal window figure and caption */
+    @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+    }
+
+    /* Style rules for Registration page */
+
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #expMonth {
+        margin-right: 1%;
+    }
+
+    #expYear {
+        margin-left: 0;
+    }
+
+    /* Style rules for Packages page */
+
+    .packages {
+        margin-top: 2%;
+    }
+
+    .packages img {
+        margin: 0 auto;
+    }
+
+    .packages li {
+        font-size: 1.5em;
+    }
+
+    .articles {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #learn {
+        display: grid;
+        grid-column: 1 / span 2;
+    }
+
+    #learn p {
+        margin-top: 2%;
+    }
+
+    #learn dd {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    #tips, #routes {
+        background: linear-gradient(aliceblue, #8A8989);
+    }
+
+    #tips img, #routes img {
+        min-width: 330px;
+    }
+
+    #tips li {
+        margin-bottom: 2%;
+    }
+
+    #routes p {
+        margin-bottom: 3%;
+    }
+
+    #routes p:first-of-type {
+        padding-top: 2%;
+    }
+
+    aside {
+        margin-bottom: 4%;
+    }
+    
+    /* Style rules for Contact page */
+
+    .map {
+        height: 450px;
+        width: 600px;
+    }
+
+    /* Style rules for About Us page */
+
+    section article {
+        padding: 0;
+    }
+
+    section h2 {
+        margin-bottom: 1%;
+    }
+
+    section p {
+        margin-bottom: 2%;
+    }
+
+    section li {
+        margin-bottom: 2%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    section li:last-of-type {
+        margin-bottom: 2%;
+    }
+}
+
+
+/* Media query for Desktop Viewport */
+@media screen and (min-width: 1280px), print {
+    
+    /* Hide mobile and tablet content and display desktop content */
+
+    .mobile, .tablet {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+
+    /* Style rules for Header */
+
+    header {
+        position: relative;
+        float: left;
+        width: 30%;
+        height: 150px;
+    }
+
+    header img {
+        margin: 2% auto 2% 2%;
+        max-width: 356px;
+        max-height: 150px;
+    }
+
+    /* Style rules for Navigation Area */
+
+    nav {
+        float: right;
+        width: 70%;
+        height: 150px;
+        justify-items: center;
+    }
+
+    nav ul {
+        width: 100%;
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+    }
+
+    nav li {
+        border: none;
+    }
+
+    nav li a:hover {
+        text-decoration: underline;
+        color: #FFF;
+    }
+
+    /* Style rules for Footer */
+
+    footer a:hover {
+        color: #fff;
+    }
+
+
+    /* Style rules for Main Content */
+
+    main {
+        clear: both;
+    }
+
+    main h1 {
+        color: #289B3B;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    /* Style rules for Footer */
+
+    footer {
+        padding: 1% 0;
+    }
+
+    /* Style rules for Index page */
+
+    .marketing p {
+        padding: 3%;
+    }
+
+    .marketing p:first-of-type {
+        padding-top: 0;
+        margin-top: 80px;
+    }
+
+    .marketing p:nth-of-type(2) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .reviews {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .reviews figure {
+        min-width: 180px ;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    /* Style rules for lightbox */
+
+    /* Styles for the box containing the slideshow and tools */
+    #lightbox {
+        position: relative;
+        max-width: 1400px;
+        max-height: 250px;
+        margin: 20px auto;
+    }
+    
+    /* Styles for the left and right arrows to move through the slideshow */
+    #lightbox #lbPrev, #lightbox #lbNext {
+        position: absolute;
+        width: 5%;
+        height: 30px;
+        color: #289B3B;
+        text-shadow: 2px 2px 2px black;
+        font-size: 20px;
+        font-weight: bold;
+        top: 118px;
+        line-height: 30px;
+        text-align: center;
+        z-index: 1;
+        background: rgba(0,0, 0, 0.0);
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    /* Hovering styles for the left and right arrows */
+    #lightbox #lbPrev:hover, #lightbox #lbNext:hover {
+        background: rgba(0,0,0,0.5);
+    }
+    
+    /* Horizontal position of the left arrow */
+    #lightbox #lbPrev {
+        left: 0px;
+    }
+    
+    /* Horizontal position of the right arrow */
+    #lightbox #lbNext {
+        right: 0px;
+    }
+    
+    /* Styles for the box containing slide images */
+    #lightbox #lbImages {
+        display: flex;
+        flex-direction: row;     
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;        
+    }
+    
+    /* Styles for the box containing the slide counter */
+    #lightbox #lbCounter {
+        position: absolute;
+        z-index: 1;
+        width: 70px;
+        height: 26px;
+        line-height: 20px;
+        font-size: 20px;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 4px;
+        text-align: center;
+        color: white;
+        top: 60px;
+        left: 0px;
+        padding: 3px;
+        user-select: none;
+    }
+    
+    /* Styles for the play-pause button */
+    #lightbox #lbPlay {
+        position: absolute;
+        top: 250px;
+        left: 47.5%;
+        text-align: center;
+        font-size: 2.2em;
+        width: 40px;
+        margin: 0 auto;
+        text-shadow: 3px 3px 20px black;
+        cursor: pointer;
+        user-select: none;
+        filter: grayscale(1);
+    }
+    
+    /* Hovering styles for the play-pause button */
+    #lightbox #lbPlay:hover {
+        position: absolute;
+        top: 250px;
+        left: 47.5%;
+        text-align: center;
+        font-size: 2.2em;
+        width: 40px;
+        margin: 0 auto;
+        text-shadow: 3px 3px 20px black;
+        cursor: pointer;
+        user-select: none;
+        filter: grayscale(0.6) hue-rotate(120deg);
+    }
+    
+    /* Styles for images within the slideshow box */
+    #lbImages img {
+        display: block;
+        width: 230px;
+        height: auto;
+        margin-right: 13px;
+        filter: opacity(0.8);
+        cursor: pointer;
+        outline: 2px solid #289B3B;
+        box-shadow: 3px 3px 10px black;  
+        user-select: none;   
+    }
+    
+    /* Hovering styles for images within the slideshow box */
+    #lbImages img:hover {
+        filter: opacity(1);
+    }
+    
+    /* Styles for the overlay displaying an image in fullscreen */
+    
+    /* Styles for the overlay */
+    #lbOverlay {
+        position: fixed;                        
+        z-index: 1;                             
+        width: 100%;                            
+        height: 100%;                         
+        top: 0;
+        left: 0;
+        background-color: rgba(40, 155, 59, 0.6);  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Styles for the figure box within the overlay */
+    #lbOverlay figure {
+        display: block;
+        width: 80%;
+        max-width: 800px;
+    }
+    
+    /* Styles for the image within the overlay */
+    #lbOverlay figure img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+        box-shadow: 5px 5px 20px black;
+        animation-name: zoom;      
+        animation-duration: 1s;  
+    }
+    
+    /* Styles for the caption within the overlay */
+    #lbOverlay figure figcaption {
+        text-align: center;
+        font-size: 1.25em;
+        color: white;
+        margin-top: 10px;
+        animation-name: zoom;     
+        animation-duration: 1s;    
+    }
+    
+    /* Styles for the overlay close button */
+    #lbOverlay #lbOverlayClose {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        color: #f1f1f1;
+        font-size: 40px;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    /* Hovering styles for the modal window close button */
+    #lbOverlay #lbOverlayClose:hover {
+        color: #FFF;
+        text-shadow: 3px 3px 0px black;
+    }
+    
+    /* Keyframe animation for the opening of the modal window figure and caption */
+    @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+    }
+
+    /* Style rules for Registration page */
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        grid-gap: 20px;
+    }
+
+    .btn {
+        display: grid;
+        grid-column: 1 / span 2;
+    }
+
+    #register {
+        padding: 0;
+    }
+
+    #next {
+        margin-top: 3%;
+    }
+
+    #submit {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        padding: 4% 8%;
+        margin-bottom: 20%;
+    }
+
+    #next {
+        padding: 1% 2%;
+
+    }
+
+    input, label, textarea, select, fieldset {
+        margin-bottom: 1%;
+    }
+
+    .custInfo input[type = "checkbox"], .driveInfo input[type = "checkbox"] {
+        width: 15px;
+        margin: 0 auto;
+    }
+
+    .driveInfo input[type = "checkbox"] {
+        margin-left: 7%;
+    }
+
+    /* Style rules for Packages page */
+
+    .packages {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 5%
+    }
+
+    .packages img {
+        min-width: 327px;
+    }
+
+    .grid h3 {
+        margin-top: 5%;
+    }
+
+    #learn p {
+        margin-top: 1%;
+    }
+
+    #learn dt {
+        margin-bottom: 1%;
+    }
+
+    #learn dd {
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    #tips li {
+        margin-bottom: 1%;
+    }
+
+    #routes p {
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    #routes li {
+        margin-bottom: 0;
+    }
+
+    aside {
+        margin-bottom: 2%;
+    }
+
+    /* Style rules for Contact page */
+
+    .hours, #contact {
+        padding: 0;
+    }
+
+    .map {
+        min-height: 450px;
+    }
+
+    table {
+        border: 2px solid #000;
+        border-collapse: collapse;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    caption {
+        font-size: 1.45em;
+        color: #289B3B;
+        padding: 1%;
+        font-weight: 700;
+    }
+
+    th, td {
+        border: 2px solid #000;
+        padding: 1%;
+        border-collapse: collapse;
+    }
+
+    th {
+        background-color: #000;
+        color: #289B3B;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #c0bebe;
+    }
+}
+
+
+/* Media Query for Large Desktop Viewport */
+@media screen and (min-width: 1921px) {
+
+    body {
+        width: 1920px;
+        margin: 0 auto;
+    }
+
+    table {
+        border: 3px solid #000;
+    }
+}
+
+
+/* Media Query for Print */
+@media print {
+
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+    Name: Jivesh Surajbali 
+    Student Number: 20476086
+    Date: 2023/06/16
+    File: clientRegistrationForm.html
+    -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMonti Driving Academy - Registration</title>
+
+    <link rel="stylesheet" href="StyleSheet/styles.css">
+    <link rel="shortcut icon" href="Images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon-180.png">
+    <link rel="icon" sizes="192x192" href="Images/favicon-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">    
+    <script src="Scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="logo" src="Images/logo.png" alt="EMonti driving academy logo"></a> 
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="clientRegistrationForm.html">Registration</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 id="register">Register for Lessons</h1>
+
+        <p id="lastVisited"></p>
+        <div id="form">
+            <h2>Enter your info below to register for lessons</h2>
+            <form method="get" action="orderSubmit.html">
+                <div class="form-grid">
+                    <fieldset class="custInfo">
+                        <legend>Customer Information</legend>
+
+                        <label for="prefName">Preferred Name:</label>
+                        <input type="text" name="prefName" id="prefName" required>
+
+                        <label for="fName">First Names as on ID:</label>
+                        <input type="text" name="fName" id="fName" required>
+
+                        <label for="sName">Surname:</label>
+                        <input type="text" name="sName" id="sName" required>
+
+                        <label for="idNum">ID Number:</label>
+                        <input type="text" name="idNum" id="idNum" required>
+
+                        <label for="cellNum">Cellphone Number:</label>
+                        <input type="tel" name="cellNum" id="cellNum" required>
+
+                        <label for="workNum">Work Number:</label>
+                        <input type="tel" name="workNum" id="workNum">
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+
+                        <label for="homeAdd">Home Address:</label>
+                        <textarea id="homeAdd" name="homeAdd" rows="4" required></textarea>
+
+                        <label for="sameAdd">Postal Address same as Home:</label>
+                        <input type="checkbox" name="sameAdd" id="sameAdd">
+
+                        <label for="postAdd">Postal Address:</label>
+                        <textarea id="postAdd" name="postAdd" rows="4" required></textarea>
+
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username">
+
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" required>
+
+                        <label for="confirm">Confirm Password:</label>
+                        <input type="password" name="confirm" id="confirm" required>
+
+                        <label for="additionalInfo">Additional Information Required:</label>
+                        <textarea id="additionalInfo" name="additionalInfo" rows="4"></textarea>
+
+                        <label for="validLearners">Do you have a valid Learners License?</label>
+                        <select name="validLearners" id="validLearners" required>
+                            <option value="">---Valid Learners License---</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+
+                        <label for="expDate">Learners License expiry date:</label>
+                        <input type="date" name="expDate" id="expDate" value="">
+
+                        <label for="minor">I am a minor:</label>
+                        <input type="checkbox" name="minor" id="minor">
+
+                        <label for="parentName">Parent's Name:</label>
+                        <input type="text" name="parentName" id="parentName">
+
+                        <label for="parentNum">Parent's Phone Number:</label>
+                        <input type="tel" name="parentNum" id="parentNum">
+
+                        <label for="licenseType">Type of License:</label>
+                        <select name="licenseType" id="licenseType" required>
+                            <option value="">---Select a License Type---</option>
+                            <option value="codeA">Code A - Motorcycle</option>
+                            <option value="codeB">Code B - Light Vehicle</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset class="driveInfo">
+                        <legend>Lesson Information</legend>
+        
+                        <label for="lessonsReq">Package:</label>
+                        <select name="lessonsReq" id="lessonsReq" required>
+                            <option value="">---Select a Package---</option>
+                            <option value="220">Single Lesson - R220.00</option>
+                            <option value="2100">10 Lessons + 1 Free - R2100.00</option>
+                            <option value="3125">15 Lessons + 1 Free - R3125.00</option>
+                            <option value="3950">20 Lessons + 1 Free - R3950.00</option>
+                            <option value="4700">25 Lessons + 1 Free - R4700.00</option>
+                            <option value="1000">Refresher Course - R1000.00</option>
+                        </select>
+        
+                        <label for="studyMaterial">Study material required:</label>
+                        <input type="checkbox" name="studyMaterial" id="studyMaterial" value="500">
+        
+                        <div id="quote">
+                            <p style="text-decoration: underline;">Service Quote:</p>
+                            <p>Package Selected:</p>
+                            <p>Study Material:</p>
+                            <p>Total Cost:</p>
+                        </div>
+                    </fieldset>
+        
+                    <fieldset class="payInfo">
+                        <legend>Payment Information</legend>
+        
+                        <label for="ccName">Name on Credit Card:</label>
+                        <input type="text" name="ccName" id="ccName" required>
+        
+                        <label for="ccType">Credit Card Type:</label>
+                        <select name="ccType" id="ccType" required>
+                            <option value="">---Credit Card Type---</option>
+                            <option value="masterCard">MasterCard</option>
+                            <option value="visa">Visa</option>
+                        </select>
+        
+                        <label for="ccNum">Credit Card Number:</label>
+                        <input type="text" name="ccNum" id="ccNum" required>
+        
+                        <label for="expMonth">Expiration Date:</label>
+                        <select id="expMonth" name="expMonth" required>
+                        <option value="">mm</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        </select>
+        
+                        <select id="expYear" name="expYear" required>
+                        <option value="">yy</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        </select>   
+        
+                        <label for="cvc">CVC/CVV:</label>
+                        <input type="text" name="cvc" id="cvc" size="5" required>
+                    </fieldset>
+                </div>
+                <input type="submit" id="next" value ="Proceed" class="btn">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2023</p>
+        <p><a href="tel:+27837084243">&#9743; 083 708 4243</a></p>
+        <p><a href="mailto:connormcg37@gmail.com">&#128231; connormcg37@gmail.com</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+[{   
+    "id": "001",
+    "first name": "Connor",
+    "last name": "McGillivray",
+    "job description": "Owner",
+    "work number": "0837084243",
+    "work email": "connormcg37@gmail.com"
+},
+
+{   "id": "002",
+    "first name": "Charles",
+    "last name": "King",
+    "job description": "Manager",
+    "work number": "0678562948",
+    "work email": "charles@emonti.com"
+},
+{   "id": "003",
+    "first name": "Jane",
+    "last name": "Smith",
+    "job description": "Receptionist",
+    "work number": "0844356123",
+    "work email": "jane@emonti.com"
+},
+
+{   "id": "004",
+    "first name": "John",
+    "last name": "Jones",
+    "job description": "Accountant",
+    "work number": "0985674858",
+    "work email": "john@emonti.com"
+},
+{   "id": "005",
+    "first name": "Harry",
+    "last name": "Wright",
+    "job description": "Admin Clerk",
+    "work number": "0645238585",
+    "work email": "harry@emonti.com"
+},
+{   "id": "006",
+    "first name": "Mike",
+    "last name": "Spark",
+    "job description": "Mechanic",
+    "work number": "0314256234",
+    "work email": "mike@emonti.com"
+},
+{   "id": "007",
+    "first name": "Simon",
+    "last name": "Grey",
+    "job description": "Driving Instructor",
+    "work number": "0431256497",
+    "work email": "simon@emonti.com"
+},
+{   "id": "008",
+    "first name": "Joshua",
+    "last name": "Brown",
+    "job description": "Driving Instructor",
+    "work number": "0431245789",
+    "work email": "josh@emonti.com"
+},
+{   "id": "009",
+    "first name": "Victor",
+    "last name": "Park",
+    "job description": "Driving Instructor",
+    "work number": "07855623164",
+    "work email": "vic@emonti.com"
+},
+{   "id": "010",
+    "first name": "Sandi",
+    "last name": "Brown",
+    "job description": "Driving Instructor",
+    "work number": "0689765431",
+    "work email": "sandi@emonti.com"
+}]
